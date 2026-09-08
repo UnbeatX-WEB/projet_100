@@ -1,24 +1,24 @@
 def main():
-    print("=== Mini Script Python ===")
-    print("1. Dire bonjour")
-    print("2. Additionner deux nombres")
-    print("3. Quitter")
+    print("=== Mini Python Script ===")
+    print("1. Say hello")
+    print("2. Add two numbers")
+    print("3. Quit")
 
-    choix = input("Choisis une option : ")
+    choice = input("Choose an option: ")
 
-    if choix == "1":
-        nom = input("Ton nom : ")
-        print(f"Bonjour {nom} !")  # f-string corrigée
+    if choice == "1":
+        name = input("Your name: ")
+        print(f"Hello {name}!")
 
-    elif choix == "2":
-        a = float(input("Nombre 1 : "))
-        b = float(input("Nombre 2 : "))
-        print("Résultat :", a + b)
+    elif choice == "2":
+        a = float(input("Number 1: "))
+        b = float(input("Number 2: "))
+        print("Result:", a + b)
 
-    elif choix == "3":
-        print("Au revoir !")
+    elif choice == "3":
+        print("Goodbye!")
 
     else:
-        print("Option invalide.")
+        print("Invalid option.")
 
 main()
